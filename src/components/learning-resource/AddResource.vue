@@ -11,7 +11,7 @@
         </base-dialog>
         <form @submit.prevent="addSubmit">
             <div class="form-control">
-                <label for="title">Title</label>
+                <label for="title">Resource Title</label>
                 <input type="text" id="title" ref="inputTitle" name="title">
             </div>
             <div class="form-control">
