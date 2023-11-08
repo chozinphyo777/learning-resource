@@ -11,11 +11,11 @@
         </base-dialog>
         <form @submit.prevent="addSubmit">
             <div class="form-control">
-                <label for="title">Resource Title</label>
+                <label for="title"> Title</label>
                 <input type="text" id="title" ref="inputTitle" name="title">
             </div>
             <div class="form-control">
-                <label for="description">Resource Description</label>
+                <label for="description"> Description</label>
                 <textarea name="description" id="description" cols="30" rows="10" ref="inputDes"></textarea>
             </div>
             <div class="form-control">
